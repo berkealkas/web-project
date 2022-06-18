@@ -1,0 +1,132 @@
+.header {
+    font-family: cursive;
+}
+
+.game{
+    position: absolute;
+    margin-top: 10%;    
+    margin-left: 10%;    
+}
+
+.game_image{
+    display: block;
+    border-radius: 50px;   
+    margin-top: 10%;
+    width: 410px;       
+    transition: .5s ease;
+}
+
+button{
+    background-color: Transparent;  
+    border: none;  
+    cursor: pointer;    
+    color: white;
+    font-family: Verdana;
+    font-size: 80px;
+    padding: 16px 32px;  
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;  
+    position: absolute;
+    top: 40%;  
+    left: 20%;  
+}
+
+.game:hover .game_image{
+    opacity: 0.7;
+}
+
+.game:hover .middle{
+    opacity: 1;
+}
+
+.movie{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.movie_image{
+    display: block;
+    border-radius: 50px;
+    margin-top: 10%;
+    width: 410px;
+    transition: .5s ease;
+}
+
+.movie:hover .movie_image{
+    opacity: 0.7;
+}
+
+.movie:hover .middle{
+    opacity: 1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tv_show{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+.tv_show_image{
+    display: block;
+    border-radius: 50px;
+    margin-top: 10%;
+    width: 410px;
+    transition: .5s ease;
+}
+
+.tv_show:hover .tv_show_image{
+    opacity: 0.7;
+}
+
+.tv_show:hover .middle{
+    opacity: 1;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    position: absolute;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav .navbar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none; 
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;  
+    padding: 7px 15px;
+    font-family: cursive;
+}
+
+.menu{
+    font-size: 20px;
+    font-family: cursive;
+}
